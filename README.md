@@ -17,3 +17,13 @@ Output:
 
 ## What I learned
 - Combining data structures
+
+## How to Run
+gcc main.c -o main
+./main
+
+## Complexity
+Time: O(N log K)
+Space: O(N)
+
+This project uses a hash table to count frequencies and a min-heap to efficiently maintain the top K elements.
